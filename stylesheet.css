@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+}
+
+
+#hero {
+    background-image: url(images/Nairobi.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#hero-title {
+    text-shadow: 5px 5px black;
+    font-size: 150px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#hero-filler {
+    text-shadow: 3px 3px black;
+    font-size: 48px;
+}
+
+
+#activities-header {
+    margin-bottom: 30px;
+}
+
+.header-h3 {
+    font-size: 32px;
+}
+
+#activities{
+    background: #e63946;
+    width: 100%;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#activities-todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0 50px 0;
+}
+
+.activities-img {
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+#cuisine {
+    background: #cdb4db;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#people {
+    background: #ffc8dd;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#art {
+    background: #ffafcc;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#wildlife {
+    background: #a8dadc;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#nightlife {
+    background: #1d3557;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#cuisine:hover {
+    background-image: url("images/cuisine.jpg");
+}
+
+#people:hover {
+    background-image: url("images/People.jpg");
+}
+
+#art:hover {
+    background-image: url("images/art.jpg");
+}
+
+#wildlife:hover {
+    background-image: url("images/Wildlife.jpg");
+}
+
+#nightlife:hover {
+    background-image: url("images/nightlife.jpg");
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #1d3557;
+}
+
+@keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.card {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f1faee;
+    color: black;
+    border-bottom: 10px solid #457b9d;
+    flex-direction: row-reverse;
+    box-shadow: 5px 5px 5px #1d3557;
+    animation: bounce 3s infinite;
+}
+
+.card-text{
+    margin: auto 2px;
+}
